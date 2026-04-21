@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+checkpoints/
+results/
+wandb/
+*.pt
+*.pth
+.ipynb_checkpoints/
+.env

@@ -1,0 +1,350 @@
+{
+  "splits": {
+    "train": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      150,
+      151
+    ],
+    "val": [
+      15
+    ],
+    "test": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140
+    ]
+  },
+  "metadata": {
+    "total_frames": 161,
+    "input_length": 5,
+    "output_length": 5,
+    "window_size": 10,
+    "num_train": 57,
+    "num_val": 1,
+    "num_test": 29,
+    "temporal_isolation": true,
+    "supports_autoregressive": true,
+    "description": "Val\u4ec51\u4e2a\u6837\u672c\u7528\u4e8e\u8bad\u7ec3\u9a8c\u8bc1\uff0cTest\u5305\u542b\u591a\u4e2a\u8fde\u7eed\u533a\u57df\u652f\u6301autoregressive\u6d4b\u8bd5"
+  },
+  "test_sequences": [
+    {
+      "chunk_id": 0,
+      "frame_range": [
+        15,
+        30
+      ],
+      "sample_starts": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "num_continuous_frames": 15,
+      "supports_ar_rounds": 2
+    },
+    {
+      "chunk_id": 1,
+      "frame_range": [
+        45,
+        60
+      ],
+      "sample_starts": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "num_continuous_frames": 15,
+      "supports_ar_rounds": 2
+    },
+    {
+      "chunk_id": 2,
+      "frame_range": [
+        75,
+        90
+      ],
+      "sample_starts": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "num_continuous_frames": 15,
+      "supports_ar_rounds": 2
+    },
+    {
+      "chunk_id": 3,
+      "frame_range": [
+        105,
+        120
+      ],
+      "sample_starts": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "num_continuous_frames": 15,
+      "supports_ar_rounds": 2
+    },
+    {
+      "chunk_id": 4,
+      "frame_range": [
+        135,
+        150
+      ],
+      "sample_starts": [
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+      ],
+      "num_continuous_frames": 15,
+      "supports_ar_rounds": 2
+    }
+  ],
+  "chunk_info": [
+    {
+      "chunk_id": 0,
+      "type": "train",
+      "frame_range": [
+        0,
+        20
+      ],
+      "num_samples": 11,
+      "sample_range": [
+        0,
+        10
+      ]
+    },
+    {
+      "chunk_id": 0,
+      "type": "val_test",
+      "frame_range": [
+        15,
+        30
+      ],
+      "num_samples": 6,
+      "num_val": 4,
+      "num_test": 2,
+      "sample_range": [
+        15,
+        20
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "type": "train",
+      "frame_range": [
+        30,
+        50
+      ],
+      "num_samples": 11,
+      "sample_range": [
+        30,
+        40
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "type": "val_test",
+      "frame_range": [
+        45,
+        60
+      ],
+      "num_samples": 6,
+      "num_val": 4,
+      "num_test": 2,
+      "sample_range": [
+        45,
+        50
+      ]
+    },
+    {
+      "chunk_id": 2,
+      "type": "train",
+      "frame_range": [
+        60,
+        80
+      ],
+      "num_samples": 11,
+      "sample_range": [
+        60,
+        70
+      ]
+    },
+    {
+      "chunk_id": 2,
+      "type": "val_test",
+      "frame_range": [
+        75,
+        90
+      ],
+      "num_samples": 6,
+      "num_val": 4,
+      "num_test": 2,
+      "sample_range": [
+        75,
+        80
+      ]
+    },
+    {
+      "chunk_id": 3,
+      "type": "train",
+      "frame_range": [
+        90,
+        110
+      ],
+      "num_samples": 11,
+      "sample_range": [
+        90,
+        100
+      ]
+    },
+    {
+      "chunk_id": 3,
+      "type": "val_test",
+      "frame_range": [
+        105,
+        120
+      ],
+      "num_samples": 6,
+      "num_val": 4,
+      "num_test": 2,
+      "sample_range": [
+        105,
+        110
+      ]
+    },
+    {
+      "chunk_id": 4,
+      "type": "train",
+      "frame_range": [
+        120,
+        140
+      ],
+      "num_samples": 11,
+      "sample_range": [
+        120,
+        130
+      ]
+    },
+    {
+      "chunk_id": 4,
+      "type": "val_test",
+      "frame_range": [
+        135,
+        150
+      ],
+      "num_samples": 6,
+      "num_val": 4,
+      "num_test": 2,
+      "sample_range": [
+        135,
+        140
+      ]
+    },
+    {
+      "chunk_id": 5,
+      "type": "train",
+      "frame_range": [
+        150,
+        161
+      ],
+      "num_samples": 2,
+      "sample_range": [
+        150,
+        151
+      ]
+    }
+  ]
+}
