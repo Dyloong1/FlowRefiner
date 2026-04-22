@@ -1,5 +1,5 @@
 <p align="center">
-<h1 align="center"><strong>🌊 FlowRefiner: Flow Matching-Based Iterative Refinement<br>for 3D Turbulent Flow Simulation</strong></h1>
+<h1 align="center"><strong>🌊 FlowRefiner: Flow Matching-Based Iterative <br> Refinement for 3D Turbulent Flow Simulation</strong></h1>
   <p align="center">
     <a>Yilong Dai<sup>1</sup>,</a>
     <a>Yiming Sun<sup>2</sup>,</a>
